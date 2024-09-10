@@ -1,0 +1,62 @@
+{
+  "editor.tabCompletion": "off",
+  "editor.formatOnSave": true,
+  "editor.wrappingStrategy": "advanced",
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 80,
+  "editor.wrappingIndent": "deepIndent",
+  "where-am-i.icon": "home",
+  "where-am-i.template": "{icon} {project-name}",
+  "where-am-i.colorful": true,
+  "where-am-i.color": "#fff",
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+
+  "eslint.rules.customizations": [
+    { "rule": "style/*", "severity": "off" },
+    { "rule": "*-indent", "severity": "off" },
+    { "rule": "*-spacing", "severity": "off" },
+    { "rule": "*-spaces", "severity": "off" },
+    { "rule": "*-order", "severity": "off" },
+    { "rule": "*-dangle", "severity": "off" },
+    { "rule": "*-newline", "severity": "off" },
+    { "rule": "*quotes", "severity": "off" },
+    { "rule": "*semi", "severity": "off" }
+  ],
+
+  "eslint.useFlatConfig": true,
+
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue"
+  ],
+
+  "eslint.options": {
+    "flags": ["unstable_ts_config"]
+  },
+
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "npm.packageManager": "yarn",
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  }
+}
