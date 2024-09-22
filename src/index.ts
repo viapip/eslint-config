@@ -48,43 +48,43 @@ function config(
           'style/max-statements-per-line': ['error', { max: 80 }],
           'style/array-bracket-newline': ['error', { multiline: true }],
 
-          'import/order': [
-            'error',
-            {
-              'newlines-between': 'always',
-              'distinctGroup': true,
+          // 'import/order': [
+          //   'error',
+          //   {
+          //     'newlines-between': 'always',
+          //     'distinctGroup': true,
 
-              'groups': [
-                'builtin',
-                'external',
-                'object',
-                'parent',
-                'internal',
-                'sibling',
-                'index',
-                'type',
-              ],
+          //     'groups': [
+          //       'external',
+          //       'builtin',
+          //       'object',
+          //       'parent',
+          //       'internal',
+          //       'sibling',
+          //       'index',
+          //       'type',
+          //     ],
 
-              'pathGroups': [
-                {
-                  pattern: '@/**/*',
-                  group: 'internal',
-                  position: 'after',
-                },
-                {
-                  pattern: '~/**/*',
-                  group: 'internal',
-                  position: 'after',
-                },
-              ],
+          //     'pathGroups': [
+          //       {
+          //         pattern: '@/**/*',
+          //         group: 'internal',
+          //         position: 'after',
+          //       },
+          //       {
+          //         pattern: '~/**/*',
+          //         group: 'internal',
+          //         position: 'after',
+          //       },
+          //     ],
 
-              'alphabetize': {
-                order: 'asc',
-                orderImportKind: 'asc',
-                caseInsensitive: false,
-              },
-            },
-          ],
+          //     'alphabetize': {
+          //       order: 'asc',
+          //       orderImportKind: 'asc',
+          //       caseInsensitive: false,
+          //     },
+          //   },
+          // ],
         },
       },
 
