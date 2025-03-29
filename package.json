@@ -2,15 +2,15 @@
   "$schema": "https://json.schemastore.org/package.json",
   "name": "@viapip/eslint-config",
   "type": "module",
-  "version": "0.0.2",
-  "packageManager": "yarn@4.4.1",
+  "version": "0.1.0",
+  "packageManager": "yarn@4.8.0",
   "description": "",
   "author": "",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/viapip/eslint-config#readme",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/viapip/eslint-config.git"
   },
   "bugs": "",
   "keywords": [],
@@ -45,27 +45,28 @@
     "clean": "yarn exec rm -rf dist"
   },
   "dependencies": {
-    "@antfu/eslint-config": "^3.5.1",
-    "@typescript-eslint/eslint-plugin": "^8.5.0",
-    "@typescript-eslint/parser": "^8.5.0",
+    "@antfu/eslint-config": "^3.16.0",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "defu": "^6.1.4",
     "esm": "^3.2.25",
-    "esno": "^4.7.0",
-    "jiti": "^1.21.6"
+    "esno": "^4.8.0",
+    "jiti": "^1.21.7"
   },
   "devDependencies": {
     "@antfu/utils": "^0.7.10",
     "@types/esm": "^3.2.2",
-    "@types/node": "^22.5.4",
-    "@yarnpkg/doctor": "^4.0.2",
-    "consola": "^3.2.3",
-    "eslint": "^9.10.0",
+    "@types/node": "^22.13.14",
+    "@yarnpkg/doctor": "^4.0.3",
+    "consola": "^3.4.2",
+    "eslint": "^9.23.0",
     "jsonc-eslint-parser": "^2.4.0",
-    "lint-staged": "^15.2.10",
-    "pkgroll": "^2.4.2",
-    "simple-git-hooks": "^2.11.1",
-    "tslib": "^2.7.0",
-    "tsx": "^4.19.0",
-    "typescript": "^5.6.2"
+    "lint-staged": "^15.5.0",
+    "pkgroll": "^2.12.1",
+    "simple-git-hooks": "^2.12.1",
+    "tslib": "^2.8.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
   },
   "simple-git-hooks": {
     "pre-commit": "yarn lint-staged"
