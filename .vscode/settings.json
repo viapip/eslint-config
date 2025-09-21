@@ -35,10 +35,6 @@
     "vue"
   ],
 
-  "eslint.options": {
-    "flags": ["unstable_ts_config"]
-  },
-
   "[vue]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
